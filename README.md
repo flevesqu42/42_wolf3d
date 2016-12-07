@@ -10,7 +10,7 @@ Requierement : OSx
 
 This project is not actively maintained.
 
->	Game project, originaly based on rebuilt a Wolfenstein like 3D engine from scratch.
+>	Game project, originaly based on rebuilt a Wolfenstein like 3D engine from scratch, including game and editor mode.
 
 > Gameplay design : You want to keep your mental health ? DON'T LOOK THEM !
 
