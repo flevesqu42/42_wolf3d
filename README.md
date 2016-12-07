@@ -58,7 +58,7 @@ make
 
 * Press \<Command\> to have a mouse tall.
 
-* Press \<Shit\> for speed.
+* Press \<Shift\> for speed.
 
 ## Screenshots ##
 
