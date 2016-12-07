@@ -6,7 +6,7 @@
 /*   By: flevesqu <flevesqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/17 15:41:16 by flevesqu          #+#    #+#             */
-/*   Updated: 2016/11/15 13:32:57 by flevesqu         ###   ########.fr       */
+/*   Updated: 2016/12/07 09:43:49 by flevesqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ void	display_menu(t_gen *gen)
 
 	index = -1;
 	xy[0] = (gen->screen->w >> 1) - 30;
-	xy[1] = (gen->screen->h >> 3);
+	xy[1] = (gen->screen->h >> 3) + 30;
 	ft_strcpy(&menu[5][24], gen->rep & RELATIVE_MOUSE ? "[OFF]" : "[ON]");
 	ft_strcpy(&menu[3][17], gen->rep & GAME_MODE ? "[GAME]" : "[EDITOR]");
 	push_text(str1, gen, xy, COLOR_WHITE);
