@@ -6,7 +6,7 @@
 /*   By: flevesqu <flevesqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/08 05:47:30 by flevesqu          #+#    #+#             */
-/*   Updated: 2016/11/15 13:28:58 by flevesqu         ###   ########.fr       */
+/*   Updated: 2016/12/07 02:16:16 by flevesqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 static void	keydown_rep(SDL_Event *event, t_gen *gen)
 {
-	if (event->key.keysym.scancode == 20)
+	if (event->key.keysym.scancode == 41)
 		gen->rep ^= MENU;
-	else if (event->key.keysym.scancode == 41)
+	else if (event->key.keysym.scancode == 20)
 		gen->rep ^= GUI_CONTINUE;
 	else if (event->key.keysym.scancode == 8)
 		gen->rep |= EDIT_SPRITE;
